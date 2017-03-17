@@ -3,7 +3,7 @@ package com.epam.library.dao;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.ArrayList;
+import java.util.List;
 
 import com.epam.library.db.DataBase;
 import com.epam.library.exeption.DAOException;
@@ -21,7 +21,7 @@ public abstract class AbstractDAO<T> {
 	
 	public abstract boolean update(T t) throws DAOException;
 	
-	public abstract ArrayList<T> select() throws DAOException;
+	public abstract List<T> select() throws DAOException;
 	
 	public abstract boolean delete(T t) throws DAOException;
 	

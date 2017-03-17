@@ -4,6 +4,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.List;
 
 import com.epam.library.entity.Book;
 import com.epam.library.exeption.DAOException;
@@ -66,8 +67,8 @@ public class BookDAO extends AbstractDAO<Book>{
 	}
 
 	@Override
-	public ArrayList<Book> select() throws DAOException {
-		ArrayList<Book> books = new ArrayList<Book>();
+	public List<Book> select() throws DAOException {
+		List<Book> books = new ArrayList<Book>();
 		PreparedStatement ps = null;
 		try {
 			ps = cn.prepareStatement(SELECT);

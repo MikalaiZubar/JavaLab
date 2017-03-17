@@ -1,0 +1,92 @@
+INFO  | 2017-03-16 22:45:16 | [main]  - Please enter your choise: 
+rename book - press 1; 
+choose employess hwo've read more than one book - 2; 
+choose employess hwo've read less than three books - 3; 
+INFO  | 2017-03-16 22:45:19 | [main]  - Adara Whitehead : 2
+INFO  | 2017-03-16 22:45:19 | [main]  - Alea Jefferson : 2
+INFO  | 2017-03-16 22:45:19 | [main]  - Candace Puckett : 2
+INFO  | 2017-03-16 22:45:19 | [main]  - Desiree Mckay : 3
+INFO  | 2017-03-16 22:45:19 | [main]  - Emily Parker : 3
+INFO  | 2017-03-16 22:45:19 | [main]  - Francis Ferguson : 4
+INFO  | 2017-03-16 22:45:19 | [main]  - Grady Bright : 2
+INFO  | 2017-03-16 22:45:19 | [main]  - Hasad Goodman : 3
+INFO  | 2017-03-16 22:45:19 | [main]  - Hyacinth Bowers : 2
+INFO  | 2017-03-16 22:45:19 | [main]  - Justine Heath : 2
+INFO  | 2017-03-16 22:45:19 | [main]  - Kalia Carson : 2
+INFO  | 2017-03-16 22:45:19 | [main]  - Karyn Ward : 4
+INFO  | 2017-03-16 22:45:19 | [main]  - Kay Sargent : 2
+INFO  | 2017-03-16 22:45:19 | [main]  - Keelie Wallace : 3
+INFO  | 2017-03-16 22:45:19 | [main]  - Lilah Sykes : 2
+INFO  | 2017-03-16 22:45:19 | [main]  - Lyle Stuart : 3
+INFO  | 2017-03-16 22:45:19 | [main]  - Maris Valentine : 2
+INFO  | 2017-03-16 22:45:19 | [main]  - McKenzie Rosario : 2
+INFO  | 2017-03-16 22:45:19 | [main]  - Palmer Summers : 3
+INFO  | 2017-03-16 22:45:19 | [main]  - Paula Stuart : 2
+INFO  | 2017-03-16 22:45:19 | [main]  - Rhona Hines : 2
+INFO  | 2017-03-16 22:45:19 | [main]  - Rose Sosa : 2
+INFO  | 2017-03-16 22:45:19 | [main]  - Salvador Elliott : 2
+INFO  | 2017-03-16 22:45:19 | [main]  - Sawyer Oconnor : 2
+INFO  | 2017-03-16 22:45:19 | [main]  - Tatiana Wright : 2
+INFO  | 2017-03-16 22:45:19 | [main]  - Violet Evans : 2
+INFO  | 2017-03-16 22:45:19 | [main]  - Xerxes Snider : 2
+INFO  | 2017-03-16 22:45:19 | [main]  - Please type 'y' if you want prolong, or any key to quit.
+INFO  | 2017-03-16 22:45:24 | [main]  - Please enter your choise: 
+rename book - press 1; 
+choose employess hwo've read more than one book - 2; 
+choose employess hwo've read less than three books - 3; 
+INFO  | 2017-03-16 22:45:32 | [main]  - Adara Whitehead : 1998-03-17 : 2
+INFO  | 2017-03-16 22:45:32 | [main]  - Adena Reeves : 1996-06-09 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Alea Jefferson : 1983-06-02 : 2
+INFO  | 2017-03-16 22:45:32 | [main]  - Anne Osborn : 1996-11-22 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Barclay Herrera : 1984-01-07 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Belle Weber : 1986-04-05 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Benedict Luna : 2000-10-14 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Brianna Frye : 1995-07-19 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Brody Deleon : 1998-07-04 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Candace Puckett : 1985-04-17 : 2
+INFO  | 2017-03-16 22:45:32 | [main]  - Clementine Rosario : 1995-08-09 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Craig Bridges : 1986-12-15 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Cruz Torres : 1989-08-16 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Dacey Strickland : 1991-06-09 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Daniel Burt : 1995-08-26 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Eleanor Pruitt : 1988-03-21 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Flynn Sweeney : 1983-12-05 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Garrison Ferguson : 1995-02-26 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Gay Alexander : 1998-01-04 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Giselle Brady : 1986-10-10 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Grady Bright : 1993-02-04 : 2
+INFO  | 2017-03-16 22:45:32 | [main]  - Hyacinth Bowers : 1987-12-13 : 2
+INFO  | 2017-03-16 22:45:32 | [main]  - Jarrod Bradshaw : 1998-05-12 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Jolene Stout : 1999-03-14 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Justine Heath : 1988-08-14 : 2
+INFO  | 2017-03-16 22:45:32 | [main]  - Kalia Carson : 1993-09-11 : 2
+INFO  | 2017-03-16 22:45:32 | [main]  - Kay Sargent : 1995-06-13 : 2
+INFO  | 2017-03-16 22:45:32 | [main]  - Lilah Sykes : 1992-07-10 : 2
+INFO  | 2017-03-16 22:45:32 | [main]  - Mari Burt : 1990-03-03 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Maris Valentine : 1999-03-13 : 2
+INFO  | 2017-03-16 22:45:32 | [main]  - McKenzie Rosario : 1995-06-23 : 2
+INFO  | 2017-03-16 22:45:32 | [main]  - Paula Stuart : 1997-12-13 : 2
+INFO  | 2017-03-16 22:45:32 | [main]  - Quinlan Bird : 1996-01-04 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Rae Cook : 1983-10-11 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Rebecca Joyner : 1991-08-05 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Reuben Gutierrez : 1984-02-20 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Rhona Hines : 1985-10-15 : 2
+INFO  | 2017-03-16 22:45:32 | [main]  - Rigel Massey : 1998-03-07 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Rose Sosa : 1990-05-14 : 2
+INFO  | 2017-03-16 22:45:32 | [main]  - Sade Burks : 1994-06-19 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Salvador Elliott : 2000-03-27 : 2
+INFO  | 2017-03-16 22:45:32 | [main]  - Sawyer Oconnor : 1988-08-17 : 2
+INFO  | 2017-03-16 22:45:32 | [main]  - Skyler Peck : 1989-03-02 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Stella Hoover : 1991-07-29 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Tad Stein : 1991-09-10 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Tatiana Wright : 1983-02-02 : 2
+INFO  | 2017-03-16 22:45:32 | [main]  - Tobias Allen : 1992-05-29 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Vincent Mathews : 1991-01-04 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Violet Evans : 1988-07-12 : 2
+INFO  | 2017-03-16 22:45:32 | [main]  - Wynne Ortega : 1996-09-04 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Wynter Martin : 1988-05-11 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Xantha Chang : 1988-04-09 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Xantha Reynolds : 1996-02-19 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Xerxes Snider : 1985-08-01 : 2
+INFO  | 2017-03-16 22:45:32 | [main]  - Zachary Copeland : 1995-06-22 : 1
+INFO  | 2017-03-16 22:45:32 | [main]  - Please type 'y' if you want prolong, or any key to quit.

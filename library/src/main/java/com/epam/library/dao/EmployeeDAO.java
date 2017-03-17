@@ -4,6 +4,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -77,8 +78,8 @@ public class EmployeeDAO extends AbstractDAO<Employee>{
 	}
 
 	@Override
-	public ArrayList<Employee> select() throws DAOException {
-		ArrayList<Employee> employees = new ArrayList<Employee>();
+	public List<Employee> select() throws DAOException {
+		List<Employee> employees = new ArrayList<Employee>();
 		PreparedStatement ps = null;
 		try {
 			ps = cn.prepareStatement(SELECT);
