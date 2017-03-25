@@ -6,17 +6,26 @@ import java.sql.Statement;
 import java.util.List;
 
 import com.epam.library.db.DataBase;
+import com.epam.library.db.DataBaseEnum;
 import com.epam.library.exeption.DAOException;
 
 public abstract class AbstractDAO<T> {
 	
-	private static final DataBase DB = new DataBase();
-	protected Connection cn;
+	protected static Connection cn;
 	
+
 	public AbstractDAO() {
-		cn = DB.getCn();
+		DataBase db = DataBase.getDataBase();
+		cn = db.getCn();
 	}
 
+	//for ENUM based app
+	/*
+	public AbstractDAO() {
+		DataBaseEnum db = DataBaseEnum.DATABASE;
+		cn = db.getCn();
+	}
+	*/
 	public abstract boolean insert(T t) throws DAOException;
 	
 	public abstract boolean update(T t) throws DAOException;

@@ -79,7 +79,7 @@ public class EmployeeDAO extends AbstractDAO<Employee>{
 
 	@Override
 	public List<Employee> select() throws DAOException {
-		List<Employee> employees = new ArrayList<Employee>();
+		List<Employee> employees = new ArrayList<>();
 		PreparedStatement ps = null;
 		try {
 			ps = cn.prepareStatement(SELECT);
@@ -102,34 +102,39 @@ public class EmployeeDAO extends AbstractDAO<Employee>{
 		return false;
 	}
 	
-	public void selectMoreThanOne() throws DAOException{
+	
+	public List<String> selectMoreThanOne() throws DAOException{
 		PreparedStatement ps = null;
+		List<String> dataList = new ArrayList<>();
 		try{
 			ps = cn.prepareStatement(MORE_THAN_ONE);
 			ResultSet rs = ps.executeQuery();
 			while(rs.next()){
-				LOGGER.info(rs.getString(1) + " : " + rs.getInt(2));
+				dataList.add(rs.getString(1) + " : " + rs.getInt(2));
 			}
 		} catch (SQLException e) {
 			throw new DAOException("Database error", e);
 		}finally{
 			close(ps);
 		}
+		return dataList;
 	}
 	
-	public void selectLessThanThree() throws DAOException{
+	public List<String> selectLessThanThree() throws DAOException{
 		PreparedStatement ps = null;
+		List<String> dataList = new ArrayList<>();
 		try{
 			ps = cn.prepareStatement(LESS_THAN_THREE);
 			ResultSet rs = ps.executeQuery();
 			while(rs.next()){
-				LOGGER.info(rs.getString(1) + " : " + rs.getDate(2) + " : " + rs.getInt(3));
+				dataList.add(rs.getString(1) + " : " + rs.getDate(2) + " : " + rs.getInt(3));
 			}
 		} catch (SQLException e) {
 			throw new DAOException("Database error", e);
 		}finally{
 			close(ps);
 		}
+		return dataList;
 	}
-
+		
 }

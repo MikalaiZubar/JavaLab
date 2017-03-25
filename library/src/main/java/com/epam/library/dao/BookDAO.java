@@ -68,7 +68,7 @@ public class BookDAO extends AbstractDAO<Book>{
 
 	@Override
 	public List<Book> select() throws DAOException {
-		List<Book> books = new ArrayList<Book>();
+		List<Book> books = new ArrayList<>();
 		PreparedStatement ps = null;
 		try {
 			ps = cn.prepareStatement(SELECT);
